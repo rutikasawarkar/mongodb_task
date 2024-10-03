@@ -1,0 +1,6 @@
+/**
+ * query: The query in MQL.
+ */
+ {
+    field: { $ne: "$discount"}
+  }

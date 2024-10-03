@@ -1,0 +1,7 @@
+/**
+ * specifications: The fields to
+ *   include or exclude.
+ */
+ {
+    qty: {$or: [ {$gt:["$quantity",15]}, { $lt: ["$quantity",6]}]}
+  }
